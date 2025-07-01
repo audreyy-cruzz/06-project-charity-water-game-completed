@@ -11,7 +11,8 @@
         <section class="game-header">
             <img src="img/cw_logo-horizontal.png" alt="Charity: water logo" class="cw-logo" style="max-width:200px; display:block; margin:0 auto 10px auto;">
             <h1 class="game-title">Water Drop</h1>
-            <p class="game-tagline">Catch the good drops, avoid the bad ones!</p>
+            <p class="game-tagline">Help us collect water!</p>
+            <p class="game-instructions">Use the arrow keys to move the bucket and catch the water drops. Collect good drops to score points, but avoid the bad ones!</p>
         </section>
         <div class="score-panel">
             <div class="score">Score: <span id="score">0</span></div>
@@ -26,5 +27,12 @@
     
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-</body>
+    <section class="footer">
+      <div style="text-align:center; margin-top:32px; font-size:16px;">
+        <a href="https://www.charitywater.org/" target="_blank" rel="noopener" style="color:#000000; text-decoration:none; margin-right:18px;">Our Website</a>
+        <a href="https://www.charitywater.org/donate" target="_blank" rel="noopener" style="color:#000000; text-decoration:none;">Donate</a>
+      </div>
+    </section>
+    <audio id="collect-sound" src="game-bonus-02-294436.mp3" preload="auto"></audio>
+  </body>
 </html>
